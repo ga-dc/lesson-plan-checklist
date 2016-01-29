@@ -1,6 +1,10 @@
 # Travisify
 
-To test, add this to a file called env.js:
+Utility script to add travis.yml to all lesson repos (in https://api.github.com/users/ga-wdi-lessons).
+
+
+## Setup 
+Create "env.js":
 
 ```js
 //env.js
@@ -9,6 +13,7 @@ module.exports = {
 }
 ```
 
+## Usage
 ```
 $ node index.js
 ```
